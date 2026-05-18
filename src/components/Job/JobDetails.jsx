@@ -11,7 +11,7 @@ const JobDetails = () => {
   const { isAuthorized, user } = useContext(Context);
 
   useEffect(()=>{
-    axios.get(`http://localhost:5000/api/v1/job/${id}`, {withCredentials: true})
+    axios.get(`https://careerhub-backend-main.onrender.com/api/v1/job/${id}`, {withCredentials: true})
     .then(res=>{
       setJob(res.data.job);
     })

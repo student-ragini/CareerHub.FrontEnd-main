@@ -35,7 +35,7 @@ const PostJob = () => {
       setSalaryTo("");
       setFixedSalary("");
     }
-    await axios.post("http://localhost:5000/api/v1/job/post", fixedSalary.length >=4 ? 
+    await axios.post("https://careerhub-backend-main.onrender.com/api/v1/job/post", fixedSalary.length >=4 ? 
       { title, category, country, city, location, fixedSalary, description }:
       { title, category, country, city, location, salaryFrom, salaryTo, description },
       {
