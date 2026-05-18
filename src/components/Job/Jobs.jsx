@@ -17,7 +17,7 @@ const Jobs = () => {
     }
     catch(error)
     {
-      console.log(error);
+      
     }
 
   },[]);

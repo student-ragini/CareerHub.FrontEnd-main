@@ -13,7 +13,7 @@ const MyApplications = () => {
   const { user } = useContext(Context);
   const { isAuthorized } = useContext(Context);
 
-  console.log("user: ", user);
+  
 
   const navigateTo = useNavigate();
 

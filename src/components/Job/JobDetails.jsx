@@ -17,7 +17,7 @@ const JobDetails = () => {
     })
     .catch((error) => {
       navigateTo("/notfound");
-      console.log(error.response.data.message);
+      
     });
   },[]);
 

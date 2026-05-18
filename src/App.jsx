@@ -27,7 +27,6 @@ const App = () => {
     const fetchUser = async () =>{
       try{
         const response = await axios.get("https://careerhub-backend-main.onrender.com/api/v1/user/getuser", {withCredentials:true});
-        console.log(response);
         setUser(response.data.user);
         setIsAuthorized(true);
       } 
