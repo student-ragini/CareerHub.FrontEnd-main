@@ -32,8 +32,10 @@ const App = () => {
         setIsAuthorized(true);
       } 
       catch(error){
-        setIsAuthorized(false);
-      }
+  setUser({});
+  setIsAuthorized(false);
+  console.log("User not logged in");
+}
     };
     fetchUser();
   }, []);
