@@ -132,7 +132,7 @@ p {
 .authPage .container form .inputTag div select:focus {
   outline: none;
 }
-.authPage .container form .inputTag div svg {
+.authPage .container form .inputTag div > svg {
   width: 10%;
   font-size: 1.5rem;
   background: #2076d3;
@@ -217,6 +217,40 @@ p {
     flex: none;
     display: none;
   }
+}
+
+.passwordField{
+    position: relative;
+    width: 100%;
+}
+
+.passwordField input{
+    width: 100%;
+    padding-right: 75px;
+}
+
+.eyeIcon{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 20px;
+    background: transparent !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    z-index: 100;
+}
+
+.lockIcon{
+    width: 10%;
+    font-size: 1.5rem;
+    background: #2076d3;
+    height: 100%;
+    padding: 8px;
+    color: white;
 }
 
 .footerShow {
