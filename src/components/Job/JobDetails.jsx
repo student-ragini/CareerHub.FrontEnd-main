@@ -50,8 +50,13 @@ const JobDetails = () => {
                 Description: <span>{job.description}</span>
               </p>
               <p>
-                Job Posted On: <span>{job.jobPostedOn}</span>
-              </p>
+  <span>Job Posted On:</span>{" "}
+  {new Date(job.jobPostedOn).toLocaleDateString("en-IN", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  })}
+</p>
               <p>
                 Salary: {job.fixedSalary ? (<span>{job.fixedSalary}</span>) : (
                   <span>{job.salaryFrom} - {job.salaryTo}</span>
