@@ -110,10 +110,9 @@ The application is fully responsive and works on:
 src
 │
 ├── components
-├── pages
 ├── App.jsx
 ├── main.jsx
-└── index.css
+└── index.html
 ```
 
 ---
