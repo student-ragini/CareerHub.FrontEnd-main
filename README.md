@@ -1,8 +1,8 @@
 # 💼 CareerHub - Frontend
 
-CareerHub is a full-stack MERN Job Portal application that Employers to post jobs and Job Seekers to search and apply for jobs through a secure and user-friendly platform. This frontend application provides an intuitive interface where users can register, log in, browse jobs, apply for opportunities, and manage applications, while employers can post jobs and manage applicants.
+CareerHub is a full-stack MERN Job Portal application that allows Employers to post jobs and Job Seekers to search and apply for jobs through a secure and user-friendly platform. This frontend application provides an intuitive interface where users can register, log in, browse jobs, apply for opportunities, and manage applications, while employers can post jobs and manage applicants.
 
-The application is built with React and communicates with the backend REST API for authentication, job management, and application handling.
+The frontend is built with React.js and communicates with the backend REST API for authentication, job management, and application Management.
 
 ---
 
